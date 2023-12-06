@@ -1,7 +1,7 @@
 const sequelize = require("../config/db.config");
 const { DataTypes } = require("sequelize");
 
-const Task = sequelize.define("Task", {
+const Task = sequelize.define("tasks", {
   id: {
     type: DataTypes.UUID,
     defaultValue: DataTypes.UUIDV4,

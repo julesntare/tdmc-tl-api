@@ -1,0 +1,38 @@
+{
+  "development": {
+    "username": "tdmc",
+    "password": "ExLxS0u15qmNfzXXj9kLdHTJOhcqhKV2",
+    "database": "tdmc_db",
+    "host": "dpg-clo6dnn5felc73a315t0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "protocol": "postgres",
+    "dialectOptions": {
+      "ssl": true,
+      "native": true
+    }
+  },
+  "test": {
+    "username": "tdmc",
+    "password": "ExLxS0u15qmNfzXXj9kLdHTJOhcqhKV2",
+    "database": "tdmc_db",
+    "host": "dpg-clo6dnn5felc73a315t0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "protocol": "postgres",
+    "dialectOptions": {
+      "ssl": true,
+      "native": true
+    }
+  },
+  "production": {
+    "username": "tdmc",
+    "password": "ExLxS0u15qmNfzXXj9kLdHTJOhcqhKV2",
+    "database": "tdmc_db",
+    "host": "dpg-clo6dnn5felc73a315t0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "protocol": "postgres",
+    "dialectOptions": {
+      "ssl": true,
+      "native": true
+    }
+  }
+}
