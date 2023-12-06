@@ -27,13 +27,6 @@ const server = new ApolloServer({
   resolvers: [TaskResolvers],
   csrfPrevention: true,
   cache: "bounded",
-  context: ({ req }) => {
-    const auth = authenticate(req);
-    return {
-      auth,
-      req,
-    };
-  },
   introspection: true,
   playground: true,
 });
